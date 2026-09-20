@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="HYPGRAM — Digital studio for websites, web apps, mobile apps and UI/UX design."
+    >
+
+    <title>HYPGRAM</title>
+    <link rel="icon" type="image/png" href="img/662503956_18083046371087848_6602340541922458904_n.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor"></div>
+
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <header class="navbar" id="navbar">
+
+        <a href="index.html" class="logo">
+    <img src="img/Screenshot (62).png" alt="HYPGRAM">
+</a>
+
+
+        <!-- DESKTOP NAV -->
+        <nav
+            class="desktop-nav"
+            aria-label="Main navigation"
+        >
+
+            <a
+                href="services.html"
+                data-i18n="nav.services"
+            >
+                SERVICES
+            </a>
+
+            <a
+                href="works.html"
+                data-i18n="nav.works"
+            >
+                WORKS
+            </a>
+
+            <a
+                href="about.html"
+                data-i18n="nav.about"
+            >
+                ABOUT
+            </a>
+
+            <a
+                href="contactus.html"
+                data-i18n="nav.contact"
+            >
+                CONTACT US
+            </a>
+
+        </nav>
+
+
+        <!-- NAVBAR ACTIONS -->
+        <div class="navbar-actions">
+
+            <!-- LANGUAGE -->
+            <div
+                class="language-selector"
+                id="languageSelector"
+            >
+
+                <button
+                    class="language-current"
+                    id="languageCurrent"
+                    type="button"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                >
+                    EN
+                </button>
+
+
+                <div
+                    class="language-menu"
+                    id="languageMenu"
+                >
+
+                    <button
+                        type="button"
+                        data-lang="en"
+                    >
+                        English
+                    </button>
+
+                    <button
+                        type="button"
+                        data-lang="it"
+                    >
+                        Italiano
+                    </button>
+
+                    <button
+                        type="button"
+                        data-lang="es"
+                    >
+                        Español
+                    </button>
+
+                    <button
+                        type="button"
+                        data-lang="fr"
+                    >
+                        Français
+                    </button>
+
+                    <button
+                        type="button"
+                        data-lang="de"
+                    >
+                        Deutsch
+                    </button>
+
+                    <button
+                        type="button"
+                        data-lang="pt"
+                    >
+                        Português
+                    </button>
+
+                    <button
+                        type="button"
+                        data-lang="zh"
+                    >
+                        中文
+                    </button>
+
+                    <button
+                        type="button"
+                        data-lang="ja"
+                    >
+                        日本語
+                    </button>
+
+                    <button
+                        type="button"
+                        data-lang="ko"
+                    >
+                        한국어
+                    </button>
+
+                    <button
+                        type="button"
+                        data-lang="ar"
+                    >
+                        العربية
+                    </button>
+
+                    <button
+                        type="button"
+                        data-lang="hi"
+                    >
+                        हिन्दी
+                    </button>
+
+                    <button
+                        type="button"
+                        data-lang="ru"
+                    >
+                        Русский
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- MOBILE MENU BUTTON -->
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                type="button"
+                aria-label="Open menu"
+                aria-expanded="false"
+                aria-controls="mobileMenu"
+            >
+
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         MOBILE MENU
+    ========================== -->
+
+    <div
+        class="mobile-menu"
+        id="mobileMenu"
+        aria-hidden="true"
+    >
+
+        <div class="mobile-menu-inner">
+
+            <a
+                href="services.html"
+                data-i18n="nav.services"
+            >
+                SERVICES
+            </a>
+
+            <a
+                href="works.html"
+                data-i18n="nav.works"
+            >
+                WORKS
+            </a>
+
+            <a
+                href="about.html"
+                data-i18n="nav.about"
+            >
+                ABOUT
+            </a>
+
+            <a
+                href="contactus.html"
+                data-i18n="nav.contact"
+            >
+                CONTACT US
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         MAIN
+    ========================== -->
+
+    <main>
+
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero">
+
+            <div class="hero-content reveal">
+
+                <p
+                    class="eyebrow"
+                    data-i18n="hero.eyebrow"
+                >
+                    DIGITAL STUDIO
+                </p>
+
+
+                <h1 data-i18n="hero.title">
+                    WE BUILD<br>
+                    DIGITAL<br>
+                    EXPERIENCES.
+                </h1>
+
+
+                <p
+                    class="hero-description"
+                    data-i18n="hero.description"
+                >
+                    Websites, apps and digital products designed with
+                    clarity, personality and purpose.
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="hyp.html"
+                        class="btn btn-black"
+                        data-i18n="hero.button"
+                    >
+                        START A PROJECT
+                    </a>
+
+
+                    <a
+                        href="services.html"
+                        class="btn btn-outline"
+                        data-i18n="hero.secondary"
+                    >
+                        EXPLORE SERVICES
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-scroll reveal">
+
+                <span data-i18n="hero.scroll">
+                    SCROLL TO EXPLORE
+                </span>
+
+                <span class="scroll-line"></span>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             MARQUEE
+        ========================== -->
+
+        <section
+            class="marquee-section"
+            aria-label="HYPGRAM services"
+        >
+
+            <div class="marquee">
+
+                <span>WEBSITES</span>
+                <span>✦</span>
+
+                <span>WEB APPS</span>
+                <span>✦</span>
+
+                <span>MOBILE APPS</span>
+                <span>✦</span>
+
+                <span>UI / UX</span>
+                <span>✦</span>
+
+
+                <span>WEBSITES</span>
+                <span>✦</span>
+
+                <span>WEB APPS</span>
+                <span>✦</span>
+
+                <span>MOBILE APPS</span>
+                <span>✦</span>
+
+                <span>UI / UX</span>
+                <span>✦</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SERVICES PREVIEW
+        ========================== -->
+
+        <section
+            class="section services-section"
+            id="services"
+        >
+
+            <div class="section-header reveal">
+
+                <p
+                    class="eyebrow"
+                    data-i18n="services.eyebrow"
+                >
+                    WHAT WE DO
+                </p>
+
+
+                <h2 data-i18n="services.title">
+                    DIGITAL PRODUCTS<br>
+                    THAT MATTER.
+                </h2>
+
+            </div>
+
+
+            <div class="services-list">
+
+
+                <!-- SERVICE 01 -->
+                <article class="service reveal">
+
+                    <div class="service-number">
+                        01
+                    </div>
+
+
+                    <div class="service-content">
+
+                        <h3 data-i18n="services.web.title">
+                            WEBSITES
+                        </h3>
+
+
+                        <p data-i18n="services.web.text">
+                            High-impact websites built around your brand,
+                            your audience and your goals.
+                        </p>
+
+                    </div>
+
+
+                    <a
+                        href="services.html"
+                        class="service-arrow"
+                        aria-label="View website services"
+                    >
+                        ↗
+                    </a>
+
+                </article>
+
+
+                <!-- SERVICE 02 -->
+                <article class="service reveal">
+
+                    <div class="service-number">
+                        02
+                    </div>
+
+
+                    <div class="service-content">
+
+                        <h3 data-i18n="services.webapp.title">
+                            WEB APPS
+                        </h3>
+
+
+                        <p data-i18n="services.webapp.text">
+                            Fast, scalable and intuitive web applications
+                            made for real-world use.
+                        </p>
+
+                    </div>
+
+
+                    <a
+                        href="services.html"
+                        class="service-arrow"
+                        aria-label="View web app services"
+                    >
+                        ↗
+                    </a>
+
+                </article>
+
+
+                <!-- SERVICE 03 -->
+                <article class="service reveal">
+
+                    <div class="service-number">
+                        03
+                    </div>
+
+
+                    <div class="service-content">
+
+                        <h3 data-i18n="services.mobile.title">
+                            MOBILE APPS
+                        </h3>
+
+
+                        <p data-i18n="services.mobile.text">
+                            Mobile experiences that feel natural,
+                            useful and unmistakably yours.
+                        </p>
+
+                    </div>
+
+
+                    <a
+                        href="services.html"
+                        class="service-arrow"
+                        aria-label="View mobile app services"
+                    >
+                        ↗
+                    </a>
+
+                </article>
+
+
+                <!-- SERVICE 04 -->
+                <article class="service reveal">
+
+                    <div class="service-number">
+                        04
+                    </div>
+
+
+                    <div class="service-content">
+
+                        <h3 data-i18n="services.uiux.title">
+                            UI / UX DESIGN
+                        </h3>
+
+
+                        <p data-i18n="services.uiux.text">
+                            Interfaces designed to be beautiful,
+                            clear and easy to use.
+                        </p>
+
+                    </div>
+
+
+                    <a
+                        href="services.html"
+                        class="service-arrow"
+                        aria-label="View UI UX services"
+                    >
+                        ↗
+                    </a>
+
+                </article>
+
+            </div>
+
+
+            <div class="section-link reveal">
+
+                <a href="services.html">
+
+                    <span data-i18n="services.link">
+                        VIEW ALL SERVICES
+                    </span>
+
+                    <span>↗</span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             WORKS PREVIEW
+        ========================== -->
+
+        <!-- =========================
+     HYPGRAM EXPLORATIONS
+========================== -->
+
+<!-- =========================
+     HYPGRAM EXPLORATIONS
+========================== -->
+
+<!-- =========================
+     HYPGRAM EXPLORATIONS
+========================== -->
+
+<section
+    class="section works-section"
+    id="works"
+>
+
+    <div class="section-header reveal">
+
+        <p class="eyebrow">
+            HYPGRAM EXPLORATIONS
+        </p>
+
+        <h2>
+            IDEAS OF WEBSITES WE<br>
+            WANT TO BUILD.
+        </h2>
+
+    </div>
+
+
+    <div class="works-grid">
+
+
+        <!-- CONCEPT 01 -->
+        <a
+            href="works.html"
+            class="work-card work-card-large reveal"
+        >
+
+            <div class="work-image">
+
+                <div class="work-concept">
+                    <img src="./img/blog.png" alt="">
+                </div>
+
+            </div>
+
+
+            <div class="work-info">
+
+                <span>↗</span>
+
+            </div>
+
+        </a>
+
+
+        <!-- CONCEPT 02 -->
+        <a
+            href="works.html"
+            class="work-card work-card-large reveal"
+        >
+
+            <div class="work-image">
+
+                <div class="work-concept">
+                    <img src="./img/booking.png" alt="">
+                </div>
+
+            </div>
+
+
+            <div class="work-info">
+
+                <span>↗</span>
+
+            </div>
+
+        </a>
+
+
+        <!-- CONCEPT 03 -->
+        <a
+            href="works.html"
+            class="work-card work-card-large reveal"
+        >
+
+            <div class="work-image">
+
+                <div class="work-concept">
+                    <img src="./img/business.png" alt="">
+                </div>
+
+            </div>
+
+
+            <div class="work-info">
+
+                <span>↗</span>
+
+            </div>
+
+        </a>
+    </div>
+
+
+    <div class="section-link reveal">
+
+        <a href="works.html">
+
+            <span>
+                EXPLORE CONCEPTS
+            </span>
+
+            <span>
+                ↗
+            </span>
+
+        </a>
+
+    </div>
+
+</section>
+
+            <div class="section-header reveal">
+
+                <h2 data-i18n="works.title">
+                    APPS<br>
+                    IDEAS
+                </h2>
+
+            </div>
+
+
+            <div class="works-grid">
+
+
+                <!-- WORK 01 -->
+                <a
+                    href="works.html"
+                    class="work-card reveal"
+                >
+
+                    <div class="work-image">
+
+                        <div class="work-concept">
+                    <img src="./img/app1.png" alt="">
+                </div>
+
+                    </div>
+
+
+                    <div class="work-info">
+
+                        <span>
+                            ↗
+                        </span>
+
+                    </div>
+
+                </a>          
+
+
+                <!-- WORK 02 -->
+                <a
+                    href="works.html"
+                    class="work-card reveal"
+                >
+
+                    <div class="work-image">
+
+                        <div class="work-concept">
+                    <img src="./img/app2.png" alt="">
+                </div>
+
+                    </div>
+
+
+                    <div class="work-info">
+
+                        <span>
+                            ↗
+                        </span>
+
+                    </div>
+
+                </a>                
+
+            </div>
+
+
+            <div class="section-link reveal">
+
+                <a href="works.html">
+
+                    <span data-i18n="works.link">
+                        VIEW ALL WORKS
+                    </span>
+
+                    <span>
+                        ↗
+                    </span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ABOUT PREVIEW
+        ========================== -->
+
+        <section
+            class="section about-section"
+            id="about"
+        >
+
+            <div class="about-grid">
+
+
+                <div class="section-header reveal">
+
+                    <p
+                        class="eyebrow"
+                        data-i18n="about.eyebrow"
+                    >
+                        ABOUT HYPGRAM
+                    </p>
+
+
+                    <h2 data-i18n="about.title">
+                        SMALL STUDIO.<br>
+                        BIG IDEAS.
+                    </h2>
+
+                </div>
+
+
+                <div class="about-content reveal">
+
+                    <p data-i18n="about.text">
+                        HYPGRAM is an independent digital studio focused
+                        on creating meaningful digital experiences.
+                    </p>
+
+
+                    <p data-i18n="about.text2">
+                        We combine strategy, design and technology to
+                        transform ideas into products people want to use.
+                    </p>
+
+
+                    <a
+                        href="about.html"
+                        class="text-link"
+                    >
+
+                        <span data-i18n="about.link">
+                            MORE ABOUT US
+                        </span>
+
+                        <span>
+                            ↗
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROCESS
+        ========================== -->
+
+        <section class="section process-section">
+
+            <div class="section-header reveal">
+
+                <p
+                    class="eyebrow"
+                    data-i18n="process.eyebrow"
+                >
+                    OUR PROCESS
+                </p>
+
+
+                <h2 data-i18n="process.title">
+                    FROM IDEA<br>
+                    TO REALITY.
+                </h2>
+
+            </div>
+
+
+            <div class="process-grid">
+
+
+                <!-- STEP 01 -->
+                <div class="process-item reveal">
+
+                    <span>
+                        01
+                    </span>
+
+
+                    <h3 data-i18n="process.step1.title">
+                        DISCOVER
+                    </h3>
+
+
+                    <p data-i18n="process.step1.text">
+                        We understand the idea, the audience and the
+                        problem we need to solve.
+                    </p>
+
+                </div>
+
+
+                <!-- STEP 02 -->
+                <div class="process-item reveal">
+
+                    <span>
+                        02
+                    </span>
+
+
+                    <h3 data-i18n="process.step2.title">
+                        DESIGN
+                    </h3>
+
+
+                    <p data-i18n="process.step2.text">
+                        We shape the experience, interface and visual
+                        direction.
+                    </p>
+
+                </div>
+
+
+                <!-- STEP 03 -->
+                <div class="process-item reveal">
+
+                    <span>
+                        03
+                    </span>
+
+
+                    <h3 data-i18n="process.step3.title">
+                        BUILD
+                    </h3>
+
+
+                    <p data-i18n="process.step3.text">
+                        We turn the approved concept into a fast,
+                        functional digital product.
+                    </p>
+
+                </div>
+
+
+                <!-- STEP 04 -->
+                <div class="process-item reveal">
+
+                    <span>
+                        04
+                    </span>
+
+
+                    <h3 data-i18n="process.step4.title">
+                        LAUNCH
+                    </h3>
+
+
+                    <p data-i18n="process.step4.text">
+                        We launch, refine and help your product grow.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT CTA
+        ========================== -->
+
+        <section
+            class="cta"
+            id="contact"
+        >
+
+            <div class="cta-inner reveal">
+
+                <p
+                    class="eyebrow"
+                    data-i18n="contact.eyebrow"
+                >
+                    HAVE A PROJECT?
+                </p>
+
+
+                <h2 data-i18n="contact.title">
+                    LET'S MAKE<br>
+                    SOMETHING GREAT.
+                </h2>
+
+
+                <a
+                    href="contactus.html"
+                    class="btn btn-white"
+                    data-i18n="contact.button"
+                >
+                    CONTACT US
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
+    <div class="footer-top">
+
+        <div class="footer-brand">
+            <a href="index.html" class="footer-logo">
+                <img src="img/Screenshot (62).png" alt="HYPGRAM">
+            </a>
+
+            <p>
+                DIGITAL STUDIO<br>
+                WEB · APP · DESIGN
+            </p>
+        </div>
+
+        <div class="footer-column">
+            <span class="footer-label">NAVIGATION</span>
+
+            <a href="services.html">SERVICES</a>
+            <a href="works.html">WORKS</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contactus.html">CONTACT</a>
+        </div>
+
+        <div class="footer-column">
+            <span class="footer-label">CONTACT</span>
+
+            <a href="mailto:hi@hypgram.com">
+                hi@hypgram.com
+            </a>
+        </div>
+
+        <div class="footer-column footer-social-column">
+            <span class="footer-label">FOLLOW</span>
+
+            <div class="footer-socials">
+
+    <!-- Facebook -->
+    <a
+        href="https://www.facebook.com/hypgramiwd"
+        aria-label="Facebook"
+        target="_blank"
+        rel="noopener"
+    >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M14 8h3V4h-3c-3.31 0-5 1.69-5 5v2H6v4h3v5h4v-5h3l1-4h-4V9c0-.67.33-1 1-1z"/>
+        </svg>
+    </a>
+
+
+    <!-- X -->
+    <a
+        href="https://x.com/hypgramiwd"
+        aria-label="X"
+        target="_blank"
+        rel="noopener"
+    >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M18.9 2H22l-6.77 7.74L23.2 22h-6.25l-4.9-6.41L6.45 22H3.34l7.24-8.28L2.8 2h6.41l4.43 5.86L18.9 2zm-1.1 17.9h1.73L8.29 4.02H6.43L17.8 19.9z"/>
+        </svg>
+    </a>
+
+
+    <!-- Instagram -->
+    <a
+        href="https://www.instagram.com/hypgramiwd/"
+        aria-label="Instagram"
+        target="_blank"
+        rel="noopener"
+    >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="5"/>
+            <circle cx="12" cy="12" r="4.2"/>
+            <circle cx="17.5" cy="6.5" r="1"/>
+        </svg>
+    </a>
+
+
+    <!-- YouTube -->
+    <a
+        href="https://www.youtube.com/@hypgramiwd"
+        aria-label="YouTube"
+        target="_blank"
+        rel="noopener"
+    >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21.6 7.2a2.9 2.9 0 0 0-2.04-2.05C17.76 4.65 12 4.65 12 4.65s-5.76 0-7.56.5A2.9 2.9 0 0 0 2.4 7.2C1.9 9 1.9 12 1.9 12s0 3 .5 4.8a2.9 2.9 0 0 0 2.04 2.05c1.8.5 7.56.5 7.56.5s5.76 0 7.56-.5a2.9 2.9 0 0 0 2.04-2.05c.5-1.8.5-4.8.5-4.8s0-3-.5-4.8z"/>
+            <path class="social-play" d="m10 15.5 5-3.5-5-3.5v7z"/>
+        </svg>
+    </a>
+
+</div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 HYPGRAM. ALL RIGHTS RESERVED.
+        </span>
+
+        <span>
+            DIGITAL STUDIO
+        </span>
+
+    </div>
+
+</footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
