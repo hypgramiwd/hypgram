@@ -1,10 +1,17 @@
 {
   "hosting": {
-    "public": "n",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "/hypgram",
+        "destination": "https://hypgramiwd.github.io/hypgram/",
+        "type": 301
+      }
     ]
   }
 }
